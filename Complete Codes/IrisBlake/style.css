@@ -1,3 +1,4 @@
+/* settings generali del corpo */
 body{
     margin: 0;
     padding: 0;
@@ -6,15 +7,17 @@ body{
     max-width: 100%;
     font-family: 'Verdana';
 }
-
+/* colore del titolo */
 h1{
     color: rgb(249, 245, 196);
 }
 
+/* titolo della pagina */
 .titolo{
     font-family: 'Verdana';
 }
 
+/* riquadro in italiano */
 .italiano{
     background-image: url(./images/tela.jpg);
     padding: 30px; 
@@ -26,6 +29,7 @@ h1{
     margin-left: 40px;
 }
 
+/* riquadro in inglese */
 .inglese{
     background-image: url(./images/tela.jpg);
     padding: 30px; 
@@ -37,7 +41,8 @@ h1{
     margin-left: 40px;
 }
 
-footer {
+/* scritta a piè di pagina */
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;
