@@ -1,37 +1,37 @@
 body{
-    background-image: url(./images/bg.jpg);
+    margin: 0;
+    padding: 0;
+    background-image: url(./images/iris.jpg);
+    height: auto;
+    max-width: 100%;
     font-family: 'Verdana';
 }
 
 h1{
-    color: green;
+    color: rgb(249, 245, 196);
 }
+
 .titolo{
     font-family: 'Verdana';
 }
 
-footer{
-    color: blue;
-}
-
 .italiano{
-    
-    background-color: #ffe57b; 
-    padding: 20px; 
+    background-image: url(./images/tela.jpg);
+    padding: 30px; 
     border-radius: 10px; 
     box-shadow: 3px 3px 5px rgba(0, 0, 109, 0.3); 
-    width: 300px; 
+    width: 350px; 
     max-width: 100%; 
     margin: 0 auto; 
     margin-left: 40px;
 }
 
 .inglese{
-    background-color: #ffe57b; 
-    padding: 20px; 
+    background-image: url(./images/tela.jpg);
+    padding: 30px; 
     border-radius: 10px; 
-    box-shadow: 3px 3px 5px rgba(0, 0, 255, 0.3); 
-    width: 300px; 
+    box-shadow: px 3px 5px rgba(0, 0, 255, 0.3); 
+    width: 350px; 
     max-width: 100%; 
     margin: 0 auto; 
     margin-left: 40px;
@@ -44,4 +44,4 @@ footer {
     width: 100%;
     color: white;
     text-align: left;
-  }
+}
