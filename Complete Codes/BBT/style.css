@@ -5,6 +5,7 @@ body {
     image-rendering: auto;
     background-size: auto;
     background-repeat:inherit;
+
 }
  
 #immaginesopra {   
@@ -15,9 +16,43 @@ body {
     margin-right: auto;
 }
 
-/* nav {
-    background-color: #333;
-    color: white;
+
+
+#pannellosinistro {
+    background-color: #ff9d00;
+    color: #fff;
+    padding: 20px;
+
+    box-shadow: 2px 3px 3px #000;
+    height: 1000px;
+    width: 765px;
+    margin-left: 375px;
+}
+
+nav {
+    background-color: #ff0000;
+    color: #fff;
     padding: 10px;
-    text-align: center;
-} */
+    box-shadow: 2px 3px 3px #000;
+    display: 10px;
+    justify-content: flex-start; 
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-block; 
+}
+
+nav a:hover {
+    background-color: red;
+    color: yellow;
+}
+
+footer {
+    content: url("img/footer.jpg");
+    height: 370px;
+    margin-left: auto;
+    margin-right: auto;
+}
