@@ -29,7 +29,26 @@ body {
     height: 1000px;
     width: 271px;
     float: left;
-    /* content: url("img/divano.jpg"); */
+}
+
+#immaginedivano {
+    content: url("img/divano.png");
+}
+
+#pannellodestro p {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+#pannellodestro h2 {
+    color: yellow;
+    font-size: 27px;
+    margin-left: 90px;
+}
+#pannellodestro h3 {
+    color: yellow;
+    font-size: 20px;
+    margin-left: 30px;
 }
 
 #pannellosinistro p {
@@ -53,6 +72,7 @@ body {
 }
 
 #pannellodestrolink {
+    margin-left: 70px;
     color: #ffffff;
     text-decoration: none;
     display: inline-block;
@@ -86,7 +106,7 @@ nav a:hover {
     color: yellow;
 }
 
-footer {
+#immaginefooter {
     content: url("img/footer.jpg");
     height: 370px;
     margin-left: auto;
