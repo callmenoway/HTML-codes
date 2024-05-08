@@ -1,11 +1,7 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    
-    background-image: url("img/bg.jpg");
-    image-rendering: auto;
-    background-size: auto;
-    background-repeat:inherit;
-
+    font-family: 'Roboto', sans-serif; 
+    background: url("img/bg.jpg") repeat-x;
+    background-color: #44196b;
 }
  
 #immaginesopra {   
@@ -16,17 +12,40 @@ body {
     margin-right: auto;
 }
 
-
+/* 44196b */
 
 #pannellosinistro {
     background-color: #ff9d00;
     color: #fff;
-    padding: 20px;
-
-    box-shadow: 2px 3px 3px #000;
+    padding: 2px;
+    box-shadow: 5px 8px 8px #0800ff;
     height: 1000px;
     width: 765px;
-    margin-left: 375px;
+    margin-left: 381px;
+    float: left;
+}
+
+#pannellodestro {
+    background-color: #ff26b7;
+    color: #fff;
+    padding: 20px;
+    box-shadow: 5px 8px 8px #0800ff;
+    height: 1000px;
+    width: 271px;
+    margin-right: 0;
+    float: left;
+    /* content: url("img/divano.jpg"); */
+}
+
+#pannellodestrolink {
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+}
+
+#pannellodestrolink:hover {
+    text-transform: uppercase;
+    color: blue;
 }
 
 nav {
@@ -36,6 +55,8 @@ nav {
     box-shadow: 2px 3px 3px #000;
     display: 10px;
     justify-content: flex-start; 
+    margin-left: 381px;
+    margin-right: 380px;
 }
 
 nav a {
