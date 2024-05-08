@@ -6,35 +6,50 @@ body {
  
 #immaginesopra {   
     content: url("img/header.jpg"); 
-    width: 1080px; 
+    width: 1000px; 
     height: 571px;
     margin-left: auto;
     margin-right: auto;
 }
 
-/* 44196b */
-
 #pannellosinistro {
-    background-color: #ff9d00;
+    background-color: #ff7b00;
     color: #fff;
-    padding: 2px;
     box-shadow: 5px 8px 8px #0800ff;
     height: 1000px;
     width: 765px;
-    margin-left: 381px;
+    margin-left: 404px;
     float: left;
 }
 
 #pannellodestro {
     background-color: #ff26b7;
     color: #fff;
-    padding: 20px;
     box-shadow: 5px 8px 8px #0800ff;
     height: 1000px;
     width: 271px;
-    margin-right: 0;
     float: left;
     /* content: url("img/divano.jpg"); */
+}
+
+#pannellosinistro p {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+#pannellosinistro ul {
+    font-size: 15px;
+    margin-left: 15px;
+}
+
+#pannellosinistro b {
+    color: rgb(98, 0, 118);
+}
+
+#pannellosinistro h1 {
+    color: yellow;
+    font-size: 20px;
+    margin-left: 15px;
 }
 
 #pannellodestrolink {
@@ -76,4 +91,10 @@ footer {
     height: 370px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#testofooter {
+    color: #ffffff;
+    text-align: center;
+    font-size: 20px;
 }
