@@ -6,7 +6,7 @@ body {
  
 #immaginesopra {   
     content: url("img/header.jpg"); 
-    width: 1000px; 
+    width: 1080px; 
     height: 571px;
     margin-left: auto;
     margin-right: auto;
@@ -18,7 +18,7 @@ body {
     box-shadow: 5px 8px 8px #0800ff;
     height: 1000px;
     width: 765px;
-    margin-left: 404px;
+    margin-left: 436px;
     float: left;
 }
 
@@ -83,15 +83,24 @@ body {
     color: blue;
 }
 
+#navbarscritte{
+    display: inline;
+    list-style-type: none;
+    margin: 20px;
+}
+/* ul {
+    display: inline;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} */
+
 nav {
     background-color: #ff0000;
     color: #fff;
-    padding: 10px;
     box-shadow: 2px 3px 3px #000;
-    display: 10px;
-    justify-content: flex-start; 
-    margin-left: 381px;
-    margin-right: 380px;
+    margin-left: 412px;
+    margin-right: 411px;
 }
 
 nav a {
@@ -102,7 +111,7 @@ nav a {
 }
 
 nav a:hover {
-    background-color: red;
+    background-color: rgb(180, 0, 0);
     color: yellow;
 }
 
