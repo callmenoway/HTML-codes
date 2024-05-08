@@ -1,0 +1,41 @@
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: 2px 3px 3px #000;
+}
+body {
+    background: transparent url("antonio.jpg") top left no-repeat;
+    background-size: cover;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav a:hover {
+    color: rgb(47, 255, 0);
+}
+#titolo {
+    color: white;
+    color-scheme: white;
+}
+
+.top, .bottom {
+    width: 100%;
+    height: 30px !important;
+    display: flex;
+    position: sticky;
+    
+}
+
+.top img, .bottom img {
+    content: url("antonio.jpg");
+}
+
+.bottom {
+    bottom: 0;
+}
